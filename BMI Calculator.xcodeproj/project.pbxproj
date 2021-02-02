@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2C2DDC0825C39C4E00425F08 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2DDC0725C39C4E00425F08 /* ResultViewController.swift */; };
-		2C2DDC0C25C6C23000425F08 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2DDC0B25C6C23000425F08 /* CalculatorBrain.swift */; };
-		2C2DDC2525C8D99F00425F08 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2DDC2425C8D99F00425F08 /* BMI.swift */; };
+		2C491C2825C8DB5E00C57DF0 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C491C2625C8DB5E00C57DF0 /* CalculatorBrain.swift */; };
+		2C491C2925C8DB5E00C57DF0 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C491C2725C8DB5E00C57DF0 /* BMI.swift */; };
+		2C491C3025C8DD5900C57DF0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2C491C2F25C8DD5900C57DF0 /* .gitignore */; };
 		AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F79230D61800065EFD9 /* AppDelegate.swift */; };
 		AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */; };
 		AD0B9F7E230D61800065EFD9 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F7D230D61800065EFD9 /* CalculateViewController.swift */; };
@@ -21,8 +22,9 @@
 
 /* Begin PBXFileReference section */
 		2C2DDC0725C39C4E00425F08 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		2C2DDC0B25C6C23000425F08 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalculatorBrain.swift; path = "BMI Calculator/Controllers/CalculatorBrain.swift"; sourceTree = SOURCE_ROOT; };
-		2C2DDC2425C8D99F00425F08 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BMI.swift; path = ../../../BMI.swift; sourceTree = "<group>"; };
+		2C491C2625C8DB5E00C57DF0 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		2C491C2725C8DB5E00C57DF0 /* BMI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
+		2C491C2F25C8DD5900C57DF0 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		AD0B9F76230D61800065EFD9 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0B9F79230D61800065EFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		AD0B9F6D230D61800065EFD9 = {
 			isa = PBXGroup;
 			children = (
+				2C491C2F25C8DD5900C57DF0 /* .gitignore */,
 				AD6435992312D0BC00E22B00 /* README.md */,
 				AD0B9F78230D61800065EFD9 /* BMI Calculator */,
 				AD0B9F77230D61800065EFD9 /* Products */,
@@ -97,8 +100,8 @@
 		AD0B9F8F230D63EA0065EFD9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2C2DDC0B25C6C23000425F08 /* CalculatorBrain.swift */,
-				2C2DDC2425C8D99F00425F08 /* BMI.swift */,
+				2C491C2725C8DB5E00C57DF0 /* BMI.swift */,
+				2C491C2625C8DB5E00C57DF0 /* CalculatorBrain.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C491C3025C8DD5900C57DF0 /* .gitignore in Resources */,
 				AD0B9F86230D61840065EFD9 /* LaunchScreen.storyboard in Resources */,
 				AD0B9F83230D61840065EFD9 /* Assets.xcassets in Resources */,
 				AD64359A2312D0BC00E22B00 /* README.md in Resources */,
@@ -178,8 +182,8 @@
 				AD0B9F7E230D61800065EFD9 /* CalculateViewController.swift in Sources */,
 				AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */,
 				AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */,
-				2C2DDC0C25C6C23000425F08 /* CalculatorBrain.swift in Sources */,
-				2C2DDC2525C8D99F00425F08 /* BMI.swift in Sources */,
+				2C491C2825C8DB5E00C57DF0 /* CalculatorBrain.swift in Sources */,
+				2C491C2925C8DB5E00C57DF0 /* BMI.swift in Sources */,
 				2C2DDC0825C39C4E00425F08 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
